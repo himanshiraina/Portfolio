@@ -1,0 +1,53 @@
+section {
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+
+.how-it-works h2 {
+  margin-top: 60px;
+  color: #5e15cb;
+  font-size: 60px;
+  font-family: sans-serif;
+  margin-bottom: 1.8rem;
+}
+p{
+  font-size: 20px;
+}
+
+h3{
+font-family: cursive,bold;
+
+color: #f16609;
+}
+
+.how-it-works .box {
+  text-align: left;
+  border-left: 18px solid #f1f1f1;
+  background-color: rgb(30, 93, 144);
+}
+
+.box::before {
+  content: "\f058";
+  color: #0f955d;
+  font-family: FontAwesome;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  margin-top: -25px;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 600px) {
+  .how-it-works .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box.col-md-6 {
+    width: 47%;
+    max-width: 47%;
+  }
+}
